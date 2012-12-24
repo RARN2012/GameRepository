@@ -79,14 +79,15 @@ namespace RARN_Game
                 this.Exit();
             if (GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed)
             {
-                mySprite.velocity = new Vector2(5, 0);
+                mySprite.acceleration = new Vector2(0.005f, 0);
             }
             else if(GamePad.GetState(PlayerIndex.One).Buttons.B == ButtonState.Pressed)
             {
-                mySprite.velocity = new Vector2(-5, 0);
+                mySprite.acceleration = new Vector2(-0.005f, 0);
             }else
             {
                 mySprite.velocity = new Vector2(0, 0);
+                mySprite.acceleration = new Vector2(0, 0);
             }
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Y == ButtonState.Pressed)

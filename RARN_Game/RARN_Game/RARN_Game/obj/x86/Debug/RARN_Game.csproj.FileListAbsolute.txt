@@ -6,3 +6,11 @@ C:\Users\Rpn\Desktop\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\RARN_Game.pdb
 C:\Users\Rpn\Desktop\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\RARN_Game.exe
 C:\Users\Rpn\Desktop\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\RARN_Game.pdb
 C:\Users\Rpn\Desktop\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\Content\pistolIMG.xnb
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\Content\bulletIMG.xnb
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\Content\pistolIMG.xnb
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\RARN_Game.exe
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\bin\x86\Debug\RARN_Game.pdb
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\RARN_Game.exe
+C:\Users\Rob\Documents\GitHub\GameRepository\RARN_Game\RARN_Game\RARN_Game\obj\x86\Debug\RARN_Game.pdb
