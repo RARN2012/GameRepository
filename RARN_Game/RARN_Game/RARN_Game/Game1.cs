@@ -92,10 +92,11 @@ namespace RARN_Game
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Y == ButtonState.Pressed)
             {
-                mySprite.angularVelocity = .1f;
+                mySprite.angularAcceleration = .00005f;
             }
             else
             {
+                mySprite.angularAcceleration = 0;
                 mySprite.angularVelocity = 0;
             }
 

@@ -39,7 +39,7 @@ namespace RARN_Game.GameEngine
             angularVelocity = 0;
             color = Color.White;
             spriteDirection = SpriteEffects.None;
-            origin = new Vector2(0,0);
+            origin = new Vector2(anImage.Width / 2, anImage.Height / 2);
         }
 
         /*
