@@ -26,7 +26,6 @@ namespace RARN_Game.GameEngine
         internal Single angularVelocity;
         internal Color color;
         internal SpriteEffects spriteDirection; 
-        internal float opacity;
 
         public Sprite(Texture2D anImage,Vector2 aPosition)
         {
@@ -38,8 +37,7 @@ namespace RARN_Game.GameEngine
             angle = 0;
             angularAcceleration = 0;
             angularVelocity = 0;
-            opacity = 1;
-            color = Color.White * opacity;
+            color = Color.White;
             spriteDirection = SpriteEffects.None;
             origin = new Vector2(0,0);
         }
@@ -49,10 +47,11 @@ namespace RARN_Game.GameEngine
          * */
         internal virtual void Update(GameTime gameTime)
         {
-            //do i calculate the velocities here? Based on what time?
-            //how do I decide what time to use?
-            position += velocity;
-            angle += angularVelocity;
+            velocity += acceleration * gameTime.ElapsedGameTime.Milliseconds;
+            position += velocity * gameTime.ElapsedGameTime.Milliseconds;
+
+            angularVelocity += angularAcceleration * gameTime.ElapsedGameTime.Milliseconds;
+            angle += angularVelocity * gameTime.ElapsedGameTime.Milliseconds;
 
             if (velocity.X < 0)
             {
